@@ -17,4 +17,4 @@ Este repositorio contiene una colección de proyectos desarrollados en Kotlin. C
 
 ## Licencia
 
-Este repositorio está bajo la licencia [MIT](LICENSE).
+Este repositorio está bajo la licencia [APACHE](LICENSE).
