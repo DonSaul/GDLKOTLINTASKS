@@ -1,20 +1,21 @@
 package org.example.tasks2.exceptionhandling
 
 
+
 class InvalidInputException(message: String) : Exception(message)
 
 
 class ExceptionHandlingExercises {
 
 
-    /*
+    /**
     *   1. Handling Number Format Exception: Write a program that prompts the user to
     *      enter a number. Use exception handling to handle NumberFormatException if the
     *      user enters a non-numeric value and prompt them to re-enter a valid number.
     *
     *   Prompts the user to enter a valid number, if the number is not valid, shows an error message and
     *   keeps prompting until it does,
-    *   then prints the number
+    *   then prints the number.
     *
     *   @return Unit
     * */
@@ -33,7 +34,7 @@ class ExceptionHandlingExercises {
         println("$realNumber is a valid number")
     }
 
-    /*
+    /**
     *   2. Custom Exception with Error Handling: Define a custom exception class
     *      InvalidInputException. Write a function that takes user input and throws this
     *      exception if the input is not valid (e.g., empty or contains special characters). Handle
@@ -41,7 +42,7 @@ class ExceptionHandlingExercises {
     *
     *   Prompts the user to enter a valid String (without special characters and not empty)
     *   if input is valid, it prints the input string,
-    *   if not, throws the custom exception InvalidInputException, and prints the error message
+    *   if not, throws the custom exception InvalidInputException, and prints the error message.
     *   @return Unit
     * */
     fun subtask2() {

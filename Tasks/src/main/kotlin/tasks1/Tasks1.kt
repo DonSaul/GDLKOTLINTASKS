@@ -2,7 +2,7 @@ package org.example.tasks1
 
 class Tasks1 {
 
-    /*
+    /**
     *    Write a Kotlin program that prints the numbers from 1 to 100. But for multiples of three,
     *    print "Fizz" instead of the number, and for the multiples of five, print "Buzz". For numbers
     *    that are multiples of both three and five, print "FizzBuzz".
@@ -31,7 +31,7 @@ class Tasks1 {
         }
     }
 
-    /*
+    /**
     *   Implement a Kotlin function called reverseString that takes a string as input and returns the
     *   reverse of that string. For example, if the input is "hello", the function should return "olleh".
     *
@@ -43,7 +43,7 @@ class Tasks1 {
         return s.reversed()
     }
 
-    /*
+    /**
     *   Write a Kotlin function called isPalindrome that takes a string as input and returns true if
     *   the string is a palindrome, false otherwise. A palindrome is a word that reads the same
     *   backward as forward. For example, "radar" is a palindrome
@@ -66,7 +66,7 @@ class Tasks1 {
         return true
     }
 
-    /*
+    /**
     *   Implement a Kotlin function called fibonacci that takes an integer n as input and returns
     *   the nth Fibonacci number. The Fibonacci sequence is a series of numbers where each
     *   number is the sum of the two preceding ones. The sequence starts with 0 and 1. For
